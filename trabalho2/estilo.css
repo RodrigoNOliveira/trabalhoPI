@@ -1,0 +1,159 @@
+body {
+     height: 200vh;
+
+     background-image: url("nova.jpg");
+     background-position:  left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    /* background-image: linear-gradient(90deg, rgb(180, 129, 129), rgb(175, 5, 5)); */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+}
+
+
+
+#corpo{
+     
+    /* background-image: url("super.jgp"); */
+    background-color: rgba(255, 255, 255);
+    /* background-image: linear-gradient(90deg, rgb(180, 129, 129, 0.8), rgb(175, 5, 5, 0.8)); */
+    color: rgb(0, 0, 0);
+    /* font-size: xx-large; */
+    padding: 2em;
+    margin: 1em;
+    min-width: 75vw;
+    min-height: 100vh;
+    position: relative;
+    border-radius: 20px;
+}
+
+#intro{
+    border: 2px solid black;
+    background-color: bisque;
+    padding: 2em;
+    max-width: 32.5vw;
+    max-height: 50vw;
+    /* font-size: large; */
+    position: relative;
+}
+
+#menu {
+    color: white;
+    background-color: rgb(0, 0, 0, 0.8);
+    padding: 0.25em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content:flex-end;
+    align-items: center;
+    border: 0.5px solid yellow;
+    
+
+
+}
+
+#home{
+    
+   font-size: x-large;
+   font-weight: bolder;
+   text-decoration: none;
+    text-align: center;
+    padding:0.25vw;
+    padding-right: 4em;
+
+
+    
+}
+
+#home a{
+    text-decoration: none;
+    color: rgb(255, 255, 255, 0.4);
+}
+
+#home a:hover{
+    
+    color: rgb(255, 255, 255)
+   
+}
+
+
+#fotos{
+    color: rgb(255, 255, 255, 0.4);
+    font-size: x-large;
+    font-weight: bolder;
+    text-decoration: none;
+     text-align: center;
+     padding:0.25vw;
+     padding-right: 4em;
+     
+}
+
+#fotos:hover{
+    
+    color: rgb(255, 255, 255)
+   
+}
+
+#videos{
+    color: rgb(255, 255, 255, 0.4);
+    font-size: x-large;
+    font-weight: bolder;
+    text-decoration: none;
+     text-align: center;
+     padding:0.25vw;
+     padding-right: 4em;
+     
+}
+
+#videos:hover{
+    
+    color: rgb(255, 255, 255)
+   
+}
+
+#contato{
+    color: rgb(255, 255, 255, 0.4);
+   font-size: x-large;
+   font-weight: bolder;
+   text-decoration: none;
+    text-align: center;
+    padding:0.25vw;
+    padding-right: 4em;
+}
+
+#contato:hover{
+    
+    color: rgb(255, 255, 255)
+   
+}
+
+#logo{
+    padding: 0.25vw;
+    margin-right: auto;
+    padding-left: 4em;
+}
+
+
+#logo img{
+
+    height: 6vh;
+    margin: 1vh 0vh 1vh 5vh;
+    
+}
+
+#topo{
+    position: absolute;
+    top: 0;
+}
