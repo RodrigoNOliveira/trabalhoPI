@@ -1,0 +1,89 @@
+body {
+     height: 200vh;
+
+     background-image: url("nova.jpg");
+     background-position:  left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    /* background-image: linear-gradient(90deg, rgb(180, 129, 129), rgb(175, 5, 5)); */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-direction: column;
+
+}
+
+
+
+#corpo{
+     
+    /* background-image: url("super.jgp"); */
+    background-color: rgb(235, 235, 235);
+    /* background-image: linear-gradient(90deg, rgb(180, 129, 129, 0.8), rgb(175, 5, 5, 0.8)); */
+    color: rgb(0, 0, 0);
+    /* font-size: xx-large; */
+    padding: 2em;
+    margin: 1em;
+    min-width: 55vw;
+    min-height: 80vh;
+    position: relative;
+    border-radius: 20px;
+    
+}
+
+#quadro1{
+    /* border: 2px solid black; */
+    background-color: rgb(255, 255, 255);
+    padding: 0.5em;
+    max-width: 20vw;
+    max-height: 20vw;
+    /* font-size: large; */
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: nones;
+    
+}
+
+#quadro1:hover{
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0, 0.6);
+
+}
+#traco img{
+   max-width: 20vw;
+   padding: 0.8vh;
+
+}
+/* #quadro1 p{
+    text-align: center;
+}*/
+#text{
+    color: #494949;
+    font-size: 2rem;
+    padding: 2vh;
+}
+
+#um{
+    padding-left: 2vh;
+    align-self:flex-end;
+    margin-bottom: auto;
+    font-size: 0.8rem;
+    color: #0000ff;
+    
+}
+#quadro1 #um:hover{
+    color: rgb(0, 0, 115);
+   
+}
+
+#imagemBase img{
+
+    height: 25vh;
+
+}
