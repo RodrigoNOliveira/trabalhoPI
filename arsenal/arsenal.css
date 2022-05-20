@@ -1,0 +1,66 @@
+body{ 
+    height: 400vh;
+    background-position:center;
+}
+
+
+#corpo{
+    background-color: rgb(4, 25, 70);
+    color: rgb(255, 255, 255);
+    padding: 4em;
+    margin: 1em;
+    min-width: 55vw;
+    max-width: 65vw;
+    min-height: 85vh;
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    box-shadow: 5px 5px 5px 10px rgb(0, 0, 0, 0.6);
+
+}
+p{
+ text-align: justify;   
+}
+#foto img{
+    height: 50vh;
+    padding: 4vh;
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0, 0.6);
+}
+
+#snipers img{
+    height: 50vh;
+    padding: 4vh;
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0, 0.6);
+}
+
+#rifles img{
+    height: 50vh;
+    padding: 4vh;
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0, 0.6);
+}
+
+#submetralhadoras img{
+    height: 40vh;
+    width: 40vw;
+    padding: 4vh;
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0, 0.6);
+}
+
+#referencia{
+    padding-top: 8vh;
+    font-size: 0.8rem;
+    margin-left: auto;
+    padding-left: 4em;
+}
+
+#referencia a{
+    text-decoration: none;
+    color: white;
+}
+
+

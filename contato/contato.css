@@ -1,0 +1,90 @@
+body{
+    height: 150vh;
+}
+
+#corpo{
+    background-color: rgb(212, 118, 3);
+    color: rgb(255, 255, 255);
+    padding: 4em;
+    margin: 1em;
+    min-width: 55vw;
+    max-width: 65vw;
+    min-height: 85vh;
+    position: relative;
+    border-radius: 20px;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    box-shadow: 5px 5px 5px 10px rgb(0, 0, 0, 0.6);
+
+}
+
+#texto{
+    padding: 4vh;
+}
+
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    box-shadow: 5px 5px 5px 5px black;
+    padding: 4vh;
+    min-height: 40vh;
+    min-width: 40vw;
+
+}
+
+input{
+    background-color: rgb(243, 184, 57);
+    padding: 0.5vh;
+}
+
+#motivo select{
+    background-color: rgb(243, 184, 57);
+    padding: 0.5vh;
+}
+
+
+#motivo{
+    margin-top: 2vh;
+}
+
+#nome{
+    margin-top: 3vh;
+}
+
+#email{
+    margin-top: 3vh;
+}
+
+
+#mensagem{
+    margin-top: 3vh;
+}
+#botao{
+    margin-top: 3vh;
+}
+#mensagem textarea{
+    background-color: rgb(243, 184, 57);
+    padding: 0.5vh;
+    margin-top: auto;
+    height: 15vh;
+    width: 20vw;
+    resize: none;
+    align-items: baseline;
+    /* word-wrap:break-word;
+    overflow-wrap: break-word; */
+}
+
+#botao input{
+    width: 5vw;
+}
+
+

@@ -1,0 +1,175 @@
+body{
+    height: 450vh;
+}
+
+#corpo{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    padding: 4em;
+    margin: 1em;
+    min-width: 60vw;
+    max-width: 75vw;
+    min-height: 85vh;
+    position: relative;
+    border-radius: 20px;
+    display: grid;
+    text-align: center;
+
+    grid-template-areas: 
+    'video video foto1'
+    'video video foto2'
+    'foto3  foto4  foto5'
+    'video2 video2 foto6'
+    'video2 video2 foto7'
+    'foto8  foto9  foto10'
+    'video3 video3 foto11'
+    'video3 video3 foto12'
+    'foto13  foto14  foto15'
+    'video4 video4 foto16'
+    'video4 video4 foto17'
+    'foto18  foto19  foto20';
+
+
+    column-gap: 1em;
+    row-gap: 1em;
+    /* display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center; */
+    box-shadow: 5px 5px 5px 10px rgb(0, 0, 0, 0.6);
+
+}
+
+
+#video{
+    grid-area: video;
+}
+#video2{
+    grid-area: video2;
+}
+#video3{
+    grid-area: video3;
+}
+#video4{
+    grid-area: video4;
+}
+
+#foto1{
+    grid-area: foto1;
+}
+
+#foto2{
+    grid-area: foto2;
+}
+#foto3{
+    grid-area: foto3;
+}
+#foto4{
+    grid-area: foto4;
+}
+#foto5{
+    grid-area: foto5;
+}
+#foto6{
+    grid-area: foto6;
+}
+#foto7{
+    grid-area: foto7;
+}
+#foto8{
+    grid-area: foto8;
+}
+#foto9{
+    grid-area: foto9;
+}
+#foto10{
+    grid-area: foto10;
+}
+
+
+#foto11{
+    grid-area: foto11;
+}
+
+#foto12{
+    grid-area: foto12;
+}
+#foto13{
+    grid-area: foto13;
+}
+#foto14{
+    grid-area: foto14;
+}
+#foto15{
+    grid-area: foto15;
+}
+#foto16{
+    grid-area: foto16;
+}
+#foto17{
+    grid-area: foto17;
+}
+#foto18{
+    grid-area: foto18;
+}
+#foto19{
+    grid-area: foto19;
+}
+#foto20{
+    grid-area: foto20;
+}
+
+
+
+
+
+
+
+
+ #corpo img{
+    margin: 1vh;
+    height:28vh;
+    width: 23vw;
+    border: 1px solid green;
+    border-radius: 25px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.6);
+}
+
+#corpo img:hover{
+   border-radius: 0;
+    
+}
+
+#corpo video{
+    border-radius: 25px;
+    margin: 1vh;
+    padding: 2vh;
+    width: 30vw;
+    height: 60vh;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.6);
+} 
+
+#corpo video:hover{
+    
+    border-radius: 0;
+    
+} 
+
+
+
+
+/* #corpo video{
+    height: 30vh;
+    width: 30vw;
+    padding: 4vh;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.6);
+}
+#corpo img{
+    height: 20vh;
+    width: 20vw;
+    padding: 4vh;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.6);
+} */
+
